@@ -1,0 +1,6 @@
+version: '3'
+services:
+  hospital_mgmt_c:
+    build: .
+    ports:
+      - "8017:8017"
